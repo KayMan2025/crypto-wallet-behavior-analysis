@@ -1,11 +1,16 @@
 # Crypto Wallet Behavior Analysis
 
-This project analyzes Ethereum wallet transaction behavior using on-chain data. It includes feature engineering, clustering, and visualization.
+A data science project that analyzes Ethereum wallet transaction behavior using on-chain data. This project uses clustering and feature engineering to uncover patterns in user behavior such as frequent traders, holders, and gas spenders.
 
-## Structure
-- `data/`: contains raw and processed datasets
-- `notebooks/`: Jupyter notebooks for analysis
-- `src/`: Python scripts for data collection and processing
+## 🔍 Project Goals
+- Collect and preprocess Ethereum wallet transaction data
+- Engineer features such as transaction frequency, volume, token diversity
+- Segment wallets using unsupervised learning (clustering)
+- Visualize patterns across different wallet types
 
-## Getting Started
-Install dependencies and run the scripts to begin analysis.
+## 🧰 Tech Stack
+- **Python**, **Jupyter Notebooks**
+- **pandas**, **scikit-learn**, **matplotlib**, **seaborn**
+- **Etherscan API**, **Plotly**, **Streamlit (optional)**
+
+## 📦 Project Structure
